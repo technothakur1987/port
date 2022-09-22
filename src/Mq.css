@@ -1,0 +1,506 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 0px) and (max-width: 575.98px)
+ {
+  .navbar-nav {
+    align-items: center;
+    font-size: 1.6rem!important;
+  }
+  /*home*/
+  .home {
+    
+    padding-top: 20vh ;
+  }
+  .mylist li {
+    
+    font-size: 1rem !important;
+   
+  }
+
+  /*about*/
+  .myabouth1 {
+    
+    font-size: 2.5rem!important;
+  
+    
+  }
+  /*Download Resume*/
+
+.resumeText{
+  font-size: 1.0rem;
+  
+  
+}
+/*contact*/
+
+
+ 
+.contact{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300vh!important;
+  z-index: -1;
+  
+}
+.contactBanner{
+  height: 100vh!important;
+  width: 100vw;
+  background-image: url("/public/images/cccc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+ 
+
+}
+.downRow{
+ 
+ height:200vh!important;
+ background-color: #bd78c1;
+ display:flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+  
+}
+.downRow .col-8{
+  height: 100vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  
+  
+}
+.downRow iframe{
+  height: 80vh!important;
+  
+  
+}
+.downRow .col-4{
+  height: 100vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+
+
+  
+}
+form{
+  color: white;
+  font-family: "Montserrat Medium";
+  
+  
+}
+input,textarea{
+  border-radius: 10px;
+  border: 2px solid black;
+  
+}
+
+/*Work samples*/
+
+.video-container {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-size: smaller!important;
+
+
+
+
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+
+
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: left;
+  color: white;
+  padding-top: 12vh ;
+  padding-left: 2vh ;
+  /*font-family: 'DynaPuff', cursive;*/
+
+}
+
+.caption h1 {
+  font-size: 1.9rem ;
+  text-transform: capitalize ;
+  text-align: inherit ;
+  font-weight: 900 ;
+}
+.wsBnt1,.wsBnt2,.wsBnt3{
+  display:block!important;
+  margin-left: 2rem!important;
+  
+
+}
+
+.wsBnt1:hover {
+  background-color: white ;
+  color: black ;
+  transition: 0.3s ;
+  
+}
+
+.wsBnt2:hover {
+  background-color: white ;
+  color: black ;
+  transition: 0.3s ;
+  
+}
+
+.wsBnt3:hover {
+  background-color: white ;
+  color: black ;
+  transition: 0.3s ;
+  
+}
+
+.caption h3,
+.wsBnt3,
+.wsBnt2,
+.wsBnt1 {
+  font-family: "Montserrat Medium";
+  border-radius: 0px ;
+}
+.website1,.website2,.website3,.website4,.website5,.website6,.website7,.website8,.website9{
+  margin-top: 2vh!important;
+}
+#frontendWork {
+  position: absolute ;
+  top: 590vh ;
+  left: 0px ;
+  height: 100vh ;
+  box-sizing: border-box ;
+  font-family: "Montserrat Medium";
+  
+
+}
+#appsGamesWork {
+  position: absolute ;
+  top: 680vh ;
+  left: 0px ;
+  height: 100vh ;
+  box-sizing: border-box ;
+  font-family: "Montserrat Medium";
+
+}
+.app1,.app2,.app3,.app4,.app5,.app6,.app7,.app8,.app9,.app10{
+  height: 20vh;
+  margin: auto;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  
+}
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+ {
+  .navbar-nav {
+    align-items: center;
+    font-size: 1.8rem!important;
+  }
+  /*home*/
+  .home {
+    
+    padding-top: 30vh !important;
+  }
+  .mylist li {
+    
+    font-size: 2.7rem !important;
+   
+  }
+  .homeAnimatedText h1 {
+    font-size: 3.7rem!important ;
+  }
+  /*contact*/
+
+
+ 
+.contact{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300vh!important;
+  z-index: -1;
+  font-size: larger!important;
+}
+.contactBanner{
+  height: 100vh!important;
+  width: 100vw;
+  background-image: url("/public/images/cccc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+ 
+
+}
+.downRow{
+ 
+ height:200vh!important;
+ background-color: #bd78c1;
+ display:flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+  
+}
+.downRow .col-8{
+  height: 100vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  
+  
+}
+.downRow iframe{
+  height: 80vh!important;
+  
+  
+}
+.downRow .col-4{
+  height: 100vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+
+
+  
+}
+form{
+  color: white;
+  font-family: "Montserrat Medium";
+  
+  
+}
+input,textarea{
+  border-radius: 10px;
+  border: 2px solid black;
+  
+}
+
+/*Work samples*/
+
+.video-container {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-size: smaller!important;
+
+
+
+
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+
+
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: left;
+  color: white;
+  padding-top: 12vh ;
+  padding-left: 2vh ;
+  /*font-family: 'DynaPuff', cursive;*/
+
+}
+
+.caption h1 {
+  font-size: 1.9rem ;
+  text-transform: capitalize ;
+  text-align: inherit ;
+  font-weight: 900 ;
+}
+.wsBnt1,.wsBnt2,.wsBnt3{
+  display:block!important;
+  margin-left: 2rem!important;
+  
+
+}
+
+.wsBnt1:hover {
+  background-color: white ;
+  color: black ;
+  transition: 0.3s ;
+  
+}
+
+.wsBnt2:hover {
+  background-color: white ;
+  color: black ;
+  transition: 0.3s ;
+  
+}
+
+.wsBnt3:hover {
+  background-color: white ;
+  color: black ;
+  transition: 0.3s ;
+  
+}
+
+.caption h3,
+.wsBnt3,
+.wsBnt2,
+.wsBnt1 {
+  font-family: "Montserrat Medium";
+  border-radius: 0px ;
+}
+.website1,.website2,.website3,.website4,.website5,.website6,.website7,.website8,.website9{
+  margin-top: 2vh!important;
+}
+#frontendWork {
+  position: absolute ;
+  top: 600vh ;
+  left: 0px ;
+  height: 100vh ;
+  box-sizing: border-box ;
+  font-family: "Montserrat Medium";
+  
+
+}
+#appsGamesWork {
+  position: absolute ;
+  top: 680vh ;
+  left: 0px ;
+  height: 100vh ;
+  box-sizing: border-box ;
+  font-family: "Montserrat Medium";
+
+}
+.app1,.app2,.app3,.app4,.app5,.app6,.app7,.app8,.app9,.app10{
+  height: 20vh;
+  margin: auto;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+}
+
+/*`lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+ {
+  .navbar-nav {
+    align-items: center;
+    font-size: 2.1rem!important;
+  }
+  /*home*/
+  .home {
+    
+    padding-top: 30vh !important;
+  }
+  .mylist li {
+    
+    font-size: 3.1rem !important;
+   
+  }
+  .homeAnimatedText h1 {
+    font-size: 4.2rem!important ;
+    margin-top: 10vh!important;
+  }
+  /*contact*/
+
+
+ 
+.contact{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300vh!important;
+  z-index: -1;
+  font-size: 3.1rem!important;
+}
+.contactBanner{
+  height: 100vh!important;
+  width: 100vw;
+  background-image: url("/public/images/cccc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+ 
+
+}
+.downRow{
+ 
+ height:200vh!important;
+ background-color: #bd78c1;
+ display:flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+  
+}
+.downRow .col-8{
+  height: 100vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  
+  
+}
+.downRow iframe{
+  height: 80vh!important;
+  
+  
+}
+.downRow .col-4{
+  height: 100vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+
+
+  
+}
+form{
+  color: white;
+  font-family: "Montserrat Medium";
+  
+  
+}
+input,textarea{
+  border-radius: 10px;
+  border: 2px solid black;
+  
+}
+  
+}
+
+/*`xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+ {
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px) 
+ {
+}
