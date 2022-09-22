@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/port/static/css/main.c2b877d9.css",
+    "main.js": "/port/static/js/main.5dc8a01a.js",
+    "static/js/787.70f169b2.chunk.js": "/port/static/js/787.70f169b2.chunk.js",
+    "static/media/pexels-nestor-cortez-960540.webp": "/port/static/media/pexels-nestor-cortez-960540.3d7be20a4cee80625420.webp",
+    "static/media/screenshot2.webp": "/port/static/media/screenshot2.5190799a8e1b6fceb722.webp",
+    "static/media/screenshot3.webp": "/port/static/media/screenshot3.c9d9c81b38cf3fae8eb8.webp",
+    "static/media/screenshot.webp": "/port/static/media/screenshot.78bca21d55b2608492e9.webp",
+    "index.html": "/port/index.html",
+    "main.c2b877d9.css.map": "/port/static/css/main.c2b877d9.css.map",
+    "main.5dc8a01a.js.map": "/port/static/js/main.5dc8a01a.js.map",
+    "787.70f169b2.chunk.js.map": "/port/static/js/787.70f169b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2b877d9.css",
+    "static/js/main.5dc8a01a.js"
+  ]
+}
